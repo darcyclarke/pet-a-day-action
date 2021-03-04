@@ -1,0 +1,7 @@
+{
+  "random": false,
+  "spec_dir": ".",
+  "spec_files": [
+    "**/*e2e-[sS]pec.ts"
+  ]
+}

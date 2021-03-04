@@ -1,0 +1,12 @@
+export const deleteUserImageXml = `
+<?xml version="1.0"?>
+<methodResponse>
+  <params>
+    <param>
+      <value>
+        <boolean>1</boolean>
+      </value>
+    </param>
+  </params>
+</methodResponse>
+`;

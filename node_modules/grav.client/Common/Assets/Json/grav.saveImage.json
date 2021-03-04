@@ -1,0 +1,18 @@
+{
+  "_declaration": {
+      "_attributes": {
+          "version": "1.0"
+      }
+  },
+  "methodResponse": {
+      "params": {
+          "param": {
+              "value": {
+                  "string": {
+                      "_text": "b13ef59e996c16dcc127df002dd4578b"
+                  }
+              }
+          }
+      }
+  }
+}

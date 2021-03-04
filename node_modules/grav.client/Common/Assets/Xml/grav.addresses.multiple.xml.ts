@@ -1,0 +1,63 @@
+export const addressesMultipleXml = `
+<?xml version="1.0" encoding="UTF-8"?>
+<methodResponse>
+   <params>
+      <param>
+         <value>
+            <struct>
+               <member>
+                  <name>{{email1}}</name>
+                  <value>
+                     <struct>
+                        <member>
+                           <name>rating</name>
+                           <value>
+                              <int>0</int>
+                           </value>
+                        </member>
+                        <member>
+                           <name>userimage</name>
+                           <value>
+                              <string>6da7bb24ea4f68e1ef5bed4865e2b861</string>
+                           </value>
+                        </member>
+                        <member>
+                           <name>userimage_url</name>
+                           <value>
+                              <string>http://en.gravatar.com/userimage/150849239/6da7bb24ea4f68e1ef5bed4865e2b861.jpg</string>
+                           </value>
+                        </member>
+                     </struct>
+                  </value>
+               </member>
+               <member>
+                  <name>{{email2}}</name>
+                  <value>
+                     <struct>
+                        <member>
+                           <name>rating</name>
+                           <value>
+                              <int>0</int>
+                           </value>
+                        </member>
+                        <member>
+                           <name>userimage</name>
+                           <value>
+                              <string>cd73b8e804398c2709453d36fba41ede</string>
+                           </value>
+                        </member>
+                        <member>
+                           <name>userimage_url</name>
+                           <value>
+                              <string>http://en.gravatar.com/userimage/150849239/cd73b8e804398c2709453d36fba41ede.jpg</string>
+                           </value>
+                        </member>
+                     </struct>
+                  </value>
+               </member>
+            </struct>
+         </value>
+      </param>
+   </params>
+</methodResponse>
+`;

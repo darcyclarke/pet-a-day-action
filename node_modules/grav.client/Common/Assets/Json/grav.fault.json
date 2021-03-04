@@ -1,0 +1,37 @@
+{
+    "_declaration": {
+        "_attributes": {
+            "version": "1.0"
+        }
+    },
+    "methodResponse": {
+        "fault": {
+            "value": {
+                "struct": {
+                    "member": [
+                        {
+                            "name": {
+                                "_text": "faultCode"
+                            },
+                            "value": {
+                                "int": {
+                                    "_text": "-9"
+                                }
+                            }
+                        },
+                        {
+                            "name": {
+                                "_text": "faultString"
+                            },
+                            "value": {
+                                "string": {
+                                    "_text": "Invalid Email, or Hash, or Access Denied"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
