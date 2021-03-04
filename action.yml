@@ -15,5 +15,5 @@ inputs:
     required: false
     default: 'dog,cat,dogs,cats,kittens,puppies,puppy,kitten'
 runs:
-  using: 'node14'
+  using: 'node12'
   main: 'index.js'
