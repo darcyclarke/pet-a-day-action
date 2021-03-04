@@ -1,0 +1,30 @@
+{
+  "name": "pet-a-day",
+  "version": "1.0.0",
+  "description": "Change your GitHub avatar to a different cute animal each day...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darcyclarke/pet-a-day.git"
+  },
+  "keywords": [
+    "github",
+    "action",
+    "pet",
+    "animals"
+  ],
+  "author": "Darcy Clarke <darcy@darcyclarke.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darcyclarke/pet-a-day/issues"
+  },
+  "homepage": "https://github.com/darcyclarke/pet-a-day#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "grav.client": "^2.4.20",
+    "node-fetch": "^2.6.1"
+  }
+}

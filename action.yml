@@ -1,0 +1,19 @@
+name: 'Pet-a-Day'
+description: 'Change your GitHub avatar to a different cute animal each day...'
+branding:
+  icon: camera
+  color: orange
+inputs:
+  email:
+    description: 'Primary GitHub/Gravatar Email'
+    required: true
+  password:
+    description: 'Gravatar Password'
+    required: true
+  query:
+    description: 'Image Categories to Query'
+    required: false
+    default: 'dog,cat,dogs,cats,kittens,puppies,puppy,kitten'
+runs:
+  using: 'node14'
+  main: 'index.js'
