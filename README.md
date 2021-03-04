@@ -25,7 +25,7 @@ jobs:
   update-avatar:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/pet-a-day-action@v1.1
+    - uses: actions/pet-a-day-action@v1.0
       with:
         email:  ${{ secrets.EMAIL }}
         password: ${{ secrets.PASSWORD }}
