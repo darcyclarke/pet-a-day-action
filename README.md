@@ -1,7 +1,7 @@
 <h3 align="center">🐶🐹🐰🐱</h3>
 <h3 align="center">Pet-a-Day GitHub Action</h3>
 
-<p align="center">This action changes your GitHub avatar to a different cute animal each day...</p>
+<p align="center">This action changes your GitHub/Gravatar photo to a different cute animal each day...</p>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/459713/109923925-8182d480-7c8d-11eb-80a8-430fd292d9ff.png" alt="screen2" width="80%" /></p>
 
