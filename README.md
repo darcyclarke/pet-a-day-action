@@ -54,7 +54,7 @@ jobs:
 ## F.A.Qs
 
 * "How long does it take to see an update?"
-  * After a job run it can take a few minutes to see your profile update based on GitHub's caching (you can confirm a new photo was uploaded/mapped by checking [Gravatar](http://en.gravatar.com/))
+  * After a job run it can take a little while to see your profile update based on GitHub's caching (you can confirm a new photo was uploaded/mapped by checking [Gravatar](http://en.gravatar.com/))
 * "How often does this run?"
   * Well, the cron scheduling is actually up to you... "daily" is probably nice/fine... definitely be mindful of the platform's limitations/policies though ❤️ 
 * "How does this work?"
