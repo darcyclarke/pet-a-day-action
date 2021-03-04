@@ -17,7 +17,7 @@
     "animals"
   ],
   "author": "Darcy Clarke <darcy@darcyclarke.me>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/darcyclarke/pet-a-day/issues"
   },
