@@ -11,6 +11,7 @@
 
 <p align="center"><img src="https://user-images.githubusercontent.com/459713/109911892-fac3fc80-7c78-11eb-81fb-bbff3cc58091.png" alt="screen" width="50%" /></p>
 <p align="center"><img src="https://user-images.githubusercontent.com/459713/109922257-0d473180-7c8b-11eb-991a-0aca01ce9367.png" alt="screen2" width="50%" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/459713/109923925-8182d480-7c8d-11eb-80a8-430fd292d9ff.png" alt="screen2" width="80%" /></p>
 
 ## Installation / Usage
 
