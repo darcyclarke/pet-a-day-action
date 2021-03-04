@@ -9,7 +9,8 @@
 2. Ensure the primary email you use with GitHub is associated with your Gravatar account
 3. If you've previously uploaded a profile image to GitHub, "Revert to Gravatar" (re. [Settings > Profile > Edit](https://github.com/settings/profile))
 
-<p align="center"><img src="https://user-images.githubusercontent.com/459713/109911892-fac3fc80-7c78-11eb-81fb-bbff3cc58091.png" alt="screen" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/459713/109911892-fac3fc80-7c78-11eb-81fb-bbff3cc58091.png" alt="screen" width="50%" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/459713/109922257-0d473180-7c8b-11eb-991a-0aca01ce9367.png" alt="screen2" width="50%" /></p>
 
 ## Installation / Usage
 
@@ -47,3 +48,12 @@ jobs:
 
 * **Optional** Comma delimited list of categories to be used to choose the image (ex. `frogs,birds`)
 * **Default** `dog,cat,dogs,cats,kittens,puppies,puppy,kitten`
+
+## F.A.Qs
+
+* "How long does it take to see an update?"
+  * After a job run it can take a few minutes to see your profile update based on GitHub's caching (you can confirm a new photo was uploaded/mapped by checking [Gravatar](http://en.gravatar.com/))
+* "How often should I run this?"
+  * Up to you... I think daily is fun/nice... be mindful of the platforms limitations/policies though ❤️ 
+* "How does this work?"
+  * Under the hood, we use [**unsplash.com**](https://unsplash.com/)'s random image endpoint along with the defined `query` (aka. "categories") param to fetch a lovely animal image, upload that to Gravatar, set it as the default profile photo & thus, setting it as your default GitHub profile photo (* if you followed the steps above of course...)
