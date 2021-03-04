@@ -55,7 +55,7 @@ jobs:
 
 * "How long does it take to see an update?"
   * After a job run it can take a few minutes to see your profile update based on GitHub's caching (you can confirm a new photo was uploaded/mapped by checking [Gravatar](http://en.gravatar.com/))
-* "How often should I run this?"
-  * Up to you... I think daily is fun/nice... be mindful of the platforms limitations/policies though ❤️ 
+* "How often does this run?"
+  * Well, the cron scheduling is actually up to you... "daily" is probably nice/fine... definitely be mindful of the platform's limitations/policies though ❤️ 
 * "How does this work?"
   * Under the hood, we use [**unsplash.com**](https://unsplash.com/)'s random image endpoint along with the defined `query` (aka. "categories") param to fetch a lovely animal image, upload that to Gravatar, set it as the default profile photo & thus, setting it as your default GitHub profile photo (* if you followed the steps above of course...)
