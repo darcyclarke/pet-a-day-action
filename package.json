@@ -1,6 +1,6 @@
 {
-  "name": "pet-a-day",
-  "version": "1.0.0",
+  "name": "pet-a-day-action",
+  "version": "1.0.1",
   "description": "Change your GitHub avatar to a different cute animal each day...",
   "main": "index.js",
   "scripts": {
