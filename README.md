@@ -59,3 +59,7 @@ jobs:
   * Well, the cron scheduling is actually up to you... "daily" is probably nice/fine... definitely be mindful of the platform's limitations/policies though ❤️ 
 * "How does this work?"
   * Under the hood, we use [**unsplash.com**](https://unsplash.com/)'s random image endpoint along with the defined `query` (aka. "categories") param to fetch a lovely animal image, upload that to Gravatar, set it as the default profile photo & thus, setting it as your default GitHub profile photo (* if you followed the steps above of course...)
+* "Why does this exist?"
+  * You can thank &/or blame [**@JasonEtco**](https://github.com/JasonEtco)
+
+<p align="center"><a href="https://twitter.com/JasonEtco/status/1367150811571175432"><img src="https://user-images.githubusercontent.com/459713/110038942-791eae00-7d0e-11eb-8685-7f39859a7040.png" alt="tweet" width="50%" /></a></p>
