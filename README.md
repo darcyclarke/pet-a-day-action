@@ -9,7 +9,7 @@
 2. Ensure the primary email you use with GitHub is associated with your Gravatar account
 3. If you've previously uploaded a profile image to GitHub, "Revert to Gravatar" (re. [Settings > Profile > Edit](https://github.com/settings/profile))
 
-![Image:](https://user-images.githubusercontent.com/459713/109911892-fac3fc80-7c78-11eb-81fb-bbff3cc58091.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/459713/109911892-fac3fc80-7c78-11eb-81fb-bbff3cc58091.png" alt="screen" /></p>
 
 ## Installation / Usage
 
@@ -33,17 +33,17 @@ jobs:
 
 ## Inputs
 
-### `email`
+#### `email`
 
 * **Required** The primary email used for your GitHub account
-* **NOTE:** You should use [GitHub Action Secrets](https://docs.github.com/en/actions/reference/encrypted-secrets) to set this value (re. `https://github.com/<username>/<repo>/settings/secrets/actions`)
+* **Note:** You should use [GitHub Action Secrets](https://docs.github.com/en/actions/reference/encrypted-secrets) to set this value (re. `https://github.com/<username>/<repo>/settings/secrets/actions`)
 
-### `password`
+#### `password`
 
 * **Required** The password associated with your Gravatar/WordPress.com account
-* **NOTE:** You should use [GitHub Action Secrets](https://docs.github.com/en/actions/reference/encrypted-secrets) to set this value (re. `https://github.com/<username>/<repo>/settings/secrets/actions`)
+* **Note:** You should use [GitHub Action Secrets](https://docs.github.com/en/actions/reference/encrypted-secrets) to set this value (re. `https://github.com/<username>/<repo>/settings/secrets/actions`)
 
-## `query`
+#### `query`
 
 * **Optional** Comma delimited list of categories to be used to choose the image (ex. `frogs,birds`)
 * **Default** `dog,cat,dogs,cats,kittens,puppies,puppy,kitten`
